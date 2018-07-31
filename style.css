@@ -68,8 +68,6 @@ input{
 	 color: gold;
 }
 
-
-
 #login-box{
 	
 	margin: 10px -20px;
@@ -78,13 +76,16 @@ input{
 
 .goldenline{
 	font-size: 1.2rem;
-	color: gold;
+	color: black;
 	text-decoration: none;
 	line-height: 200%;
+	font-weight: 500;
 }
 .goldenline:hover{
-	text-shadow: 0 0 10px red;
-	text-decoration: underline darkred;
+	/*text-shadow: 0 0 10px red;*/
+	font-weight: 600;
+	color: gold;
+	/*text-decoration: underline darkred;*/
 }
 
 /*menu*/
@@ -100,7 +101,7 @@ input{
 
 .hamburger {
     border: 5%;
-    border-radius: 7px;
+    border-radius: 5px;
     background: #fff;
 }
 
@@ -121,7 +122,7 @@ input{
     font-family: 'Righteous', cursive;
     font-size: 16px;
     opacity: 0.8;
-    box-shadow: 0 0 40px black;
+    box-shadow: 0 0 10px black;
 	
 }	
 
@@ -131,9 +132,8 @@ input{
     margin: 0 10px;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-center;
-	flex-direction: row;
-}
+ }
+ 
 .site-menu li-nav{
     /*background-color: #fff;*/
     margin-top: 20px;
@@ -146,13 +146,13 @@ input{
 .site-menu a {
     display: flex;
     padding: 30px;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     text-decoration: none;
     align-items: center;
     height: 100%;
     width: 100%;
-    border-radius: 5px;
-	margin-top: 40%;
+    brder-radius: 5px;
+	margin-top: 10%;
 }
 
 .site-menu a:hover {
@@ -162,10 +162,11 @@ input{
     box-shadow: 0 0 10px black;
     font-size: 1.5rem;
 	text-decoration: none;
+	
  }
 
 a:visited {
-    color: blue;
+    color: black;
 }
  
 .square
@@ -206,7 +207,7 @@ a:visited {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
-	background-color: #A3F/*#3095d3*/;
+	background-color: #3095d3;
 	float: left;
 	text-align: center;
 }
@@ -216,18 +217,17 @@ a:visited {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
-	background-color: #3095d3;
+	background-color: #1093a2;
 	float: left;
 	text-align: center;
-	box-shadow: 0px 0px 60px red;
+	box-shadow: 0px 0px 20px red;
 }
-
  .tile1-b
 {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
-	background-color: #E8F;
+	background-color: #A3F;/*#3095d3;*/
 	float: left;
 	text-align: center;
 }
@@ -236,21 +236,22 @@ a:visited {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
-	background-color: #E8F;
+	background-color: #B3A;/*#3095d3;*/
 	float: left;
 	text-align: center;
-	box-shadow: 0px 0px 60px red;
+	box-shadow: 0px 0px 20px red;
 }
 
 .tile1-a:hover{
-	background-color: #2084c2;
-	cursor: pointer;
 	
+background-color: #1093a2;
+cursor: pointer;
+
 }
 
 .tile1-b:hover{
 
-	background-color: #B3A;
+	background-color: #B3A;#2084c2;*/
 	cursor: pointer;
 }
 
@@ -259,7 +260,7 @@ a:visited {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
-	background-color: orange/*#666666*/;
+	background-color: orange;/*#666666;*/
 	float: left;
 	text-align: center;
 }
@@ -268,22 +269,22 @@ a:visited {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
-	background-color: orange/*#666666*/;
+	background-color: darkorange;/*#666666;*/
 	float: left;
 	text-align: center;
-	box-shadow: 0px 0px 60px red;
+	box-shadow: 0px 0px 20px red;
 }
 
 .tile2:hover
 {
-	background-color: darkorange/*#444*/;
+	background-color: darkorange;/*#555555;*/
 }
 .tile3
 {
 	margin: 10px;
 	width: 230px;
 	height: 140px; 
-	background-color: yellowgreen/*#93c748*/;
+	background-color: yellowgreen;/*#93c748;*/
 	float: left;
 	text-align: center;
 }
@@ -296,10 +297,10 @@ a:visited {
 	margin: 10px;
 	width: 230px;
 	height: 140px; 
-	background-color: #93c748;
+	background-color: #82b637;
 	float: left;
 	text-align: center;
-	box-shadow: 0px 0px 60px red;
+	box-shadow: 0px 0px 20px red;
 }
 
 .tile3-log1
@@ -393,6 +394,7 @@ a:visited {
 	padding: 30px;
 	line-height: 150%;
 	font-weight: bold;
+	overflow:hidden;
 	
 }
 .tile4-kontakt
@@ -447,22 +449,7 @@ a:visited {
 	padding: 30px;
 	font-size: 16px;
 	letter-spacing: 1px;
-	box-shadow: 0px 0px 60px red;
-	line-height: 150%;
-	overflow: hidden;
-}
-
-.active /*text*/
-{
-	margin: 10px;
-	width: 420px;
-	height: 244px; 
-	background-color: #666666;
-	text-align: justify;
-	padding: 30px;
-	font-size: 16px;
-	letter-spacing: 1px;
-	box-shadow: 0px 0px 60px red;
+	box-shadow: 0px 0px 20px red;
 	line-height: 150%;
 	overflow: hidden;
 }
@@ -491,6 +478,7 @@ a:visited {
 	letter-spacing: 1px;
 	line-height: 150%;
 	overflow: hidden;
+	
 }
 
 .yt
@@ -599,6 +587,10 @@ a.maillink
         top: 25%;
         left: 10%;
     }
+	.hamburger:hover{
+		cursor:pointer;
+		
+	}
     .hamburger::before,
     .hamburger::after {
         content: '';
@@ -608,6 +600,7 @@ a.maillink
         width: 100%;
         border-top: 5px solid white;
         transform: translateY(10px);
+		
     }
     .hamburger::after {
         transform: translateY(25px);
@@ -620,7 +613,183 @@ a.maillink
     .hamburger:focus::after {
         transform: rotate(-90deg) translateX(-10px);
     }
+
+/*
+@keyframes mail {
+      
+        0% {
+            opacity: 1;
+            transform: scale(0.5) rotate(-5deg) translateX(5px);;
+			
+        }
+        20% {
+            opacity: 1;
+           transform: scale(1.2)rotate(5deg) translateY(-5px);
+        }
+        30%{
+            opacity: 0.5;
+            transform: rotate(-5deg) translateX(5px);
+        }
+        40% {
+            opacity: 1;
+           transform: rotate(5deg) translateY(5px);
+        }
+        50% {
+            opacity: 0.5;
+            transform:  rotate(-5deg) translateX(5px);
+        }
+        60% {
+            opacity: 1;
+            transform: rotate(5deg) translateY(5px);
+        }
+        70% {
+            opacity: 0.5;
+            transform: rotate(-5deg) translateX(5px);
+        }
+        
+        80% {
+            opacity: 1;
+            transform: rotate(5deg) translateX(-5px);
+        }
+        90% {
+            opacity: 0.5;
+            transform: rotate(-5deg) translateY(-5px);
+        }
+        100% {
+           opacity: 1;
+           transform: scale(1);
+		   transform: rotate(-5deg) translateX(5px);
+		  
+}
+}@keyframes mail2 {
+      
+        0% {
+            opacity: 1;
+            transform: scale(0.5) rotate(5deg) translateX(5px);
+			
+        }
+        20% {
+            opacity: 1;
+           transform: scale(1) rotate(5deg) translateY(5px);
+        }
+        30%{
+            opacity: 0.5;
+            transform: rotate(5deg) translateX(5px);
+        }
+        40% {
+            opacity: 1;
+           transform: rotate(5deg) translateY(5px);
+        }
+        50% {
+            opacity: 0.5;
+            transform:  rotate(5deg) translateX(5px);
+        }
+        60% {
+            opacity: 1;
+            transform: rotate(5deg) translateY(5px);
+        }
+        70% {
+            opacity: 0.5;
+            transform: rotate(5deg) translateX(5px);
+        }
+        
+        80% {
+            opacity: 1;
+            transform: rotate(5deg) translateX(5px);
+        }
+        90% {
+            opacity: 0.5;
+            transform: rotate(5deg) translateY(5px);
+        }
+        100% {
+            opacity: 2;
+           transform: scale(1);
+		   transform: rotate(5deg) translateX(5px);
+		  
+        }
+    }
+
+ul {
+        margin: auto;
+}
+    
+ul>li {
+        /*color: yellow;
+        display: inline-block;
+        letter-spacing: 4px;
+        text-shadow: 0 0 50px ;
+        opacity: 1; 
+		/*1 40px yellow;
+        font-size: 24px;
+		color: #fff;
+		/*animation: mail 4s infinite ease-in-out;
+		margin-bottom: 5%;
+}
+ul>li:hover{
+	border-bottom: 2px solid red;
+}
+  
+li:nth-child(1){
+        transform: rotate(15deg) translateY(4px);
+        animation: mail 2s infinite ease-in-out;
+		
+		
+}
+li:nth-child(2){
+        transform: rotate(-15deg) translateX(5px);
+        /*animation: mail 2s infinite ease-in-out;
+		
+}
+li:nth-child(4){
+        transform: rotate(15deg) translateX(5px);
+        /*animation: mail 2s infinite ease-in-out;
+		
+}
+li:nth-child(7){
+        transform: rotate(20deg) translateY(4px);
+        /*animation: mail 2s infinite ease-in-out;
+}
 	
+li:nth-child(8){
+        transform: rotate(15deg) translateY(4px);
+        /*animation: mail2 2s infinite ease-in-out;
+		
+}
+	
+li:nth-child(10){
+        transform: rotate(15deg) translateX(5px);
+        /*animation: mail 2s infinite ease-in-out;
+}
+li:nth-child(13){
+        transform: rotate(15deg) translateY(4px);
+        /*animation: mail 2s infinite ease-in-out;
+}
+	
+li:nth-child(16){
+        transform: rotate(15deg) translateY(4px);
+        /*animation: mail 2s infinite ease-in-out;
+}
+li:nth-child(17){
+        transform: rotate(7deg) translateY(4px);
+        /*animation: mail2 2s infinite ease-in-out;
+}
+	
+li:nth-child(18){
+        transform: rotate(15deg) translateY(4px);
+        
+}
+li:nth-child(19){
+        transform: rotate(-20deg) translateY(4px);
+        /*animation: nmail 2s infinite ease-in-out;
+		 
+}
+li:nth-child(21){
+        transform: rotate(15deg) translateX(4px);
+        /*animation: nmail 2s infinite ease-in-out;
+		 
+}
+*/
+
 
 .png{
 	display: inline-block;
@@ -646,420 +815,12 @@ a.maillink
 	border-bottom: .1px solid white;
 }
 
-/*.hidden{
-	display: none;
-	
-}*
-
-/*MEDIA QUERRIES*/
-
-
-
-@media (min-width: 1250px) and (orientation: portrait) {
-   
-   body{
-	   
-	   /*overflow: hidden;*/
-	   font-weight:25px;
-	   width:100vw;
-   }
-   
-	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 50%;
-		
-	}
-	.rectangle{
-		
-		width: 1000px;
-		
-	}
-	.hamburger{
-		position:absolute;
-		margin-top:-30%;
-	}
-	
-	
-	
-	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
-		width:250px;
-		
-		
-	}
-	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
-		width:250px;
-		
-		
-	}
-	.tile4{
-		width:480px;
-		margin-left: 10px;
-		
-	}
-     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
-		width:480px;
-		margin-top: -5px
-		
-	}
-	.tw{
-		width:100px;
-		float:right;
-		margin: 10px;
-		margin-left: -15px;
-	}
-	.fb, .gp, .yt{
-		margin: 10px 10px;
-		width: 100px;
-	}	
-	
-	.rectangle{
-		width:480px;
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	
-	}
+#footer{
+	margin: -15px auto;
+	padding-bottom: 1px;
+	text-align: center;
+	font-weight: 500;
 }
-
-@media (min-width: 1280px) and (orientation: portrait) {
-   
-   body{
-	   
-	   overflow: hidden;
-	   font-weight:18px;
-	   width:100vw;
-   }
-   
-	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 50%;
-		
-	}
-	.rectangle{
-		
-		width: 1000px;
-		height: 100vh;
-	}
-	
-	
-	
-	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
-		width:250px;
-		
-		
-	}
-	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
-		width:250px;
-		
-		
-	}
-	.tile4, .tile4-kontakt, .tile4-log{
-		width:480px;
-		margin-left: 10px;
-		
-	}
-     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
-		width:480px;
-		margin-top: -5px
-		
-	}
-	.tw{
-		width:100px;
-		float:right;
-		margin: 10px;
-		margin-left: -15px;
-	}
-	.fb, .gp, .yt{
-		margin: 10px 10px;
-		width: 100px;
-	}	
-	
-	.rectangle{
-		width:480px;
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	
-	}
-}
-
-@media (min-width: 780px) and (orientation: portrait) {
-   
-   body{
-	   
-	   overflow: hidden;
-	   font-weight:18px;
-   }
-   
-	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 480px;
-		height: 500px;
-		
-		
-	}
-	
-	.rectangle{
-	   width: 50%;
-	   
-	   
-   }
-	#zegar{
-		
-	}
-	#logo{
-		width: 50%;
-		margin-left:-30%;
-	}
-	
-	.hamburger{
-		display: none;
-		
-	}
-	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
-		width:220px;
-		
-		
-	}
-	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
-		width:220px;
-		
-		
-	}
-	.tile4, .tile4-kontakt, .tile4-log{
-		width:400px;
-		margin-left: 10px;
-		
-	}
-     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
-		width:400px;
-		margin-top: -5px
-		
-	}
-	.tw{
-		width:100px;
-		float:right;
-		margin: 10px;
-		margin-left: -15px;
-	}
-	.fb, .gp, .yt{
-		margin: 10px 10px;
-		width: 100px;
-	}	
-	
-	.rectangle{
-		width:480px;
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	
-	}
-}
-
-
-@media (min-width: 450px) and (orientation: portrait) {
-   
-   body{
-	   
-	   overflow: hidden;
-	   width: 	50vw;
-	   height: 50vh;
-   }
-   .rectangle{
-	   width: 50%;
-	   
-	   
-   }
-   #container{
-	   width: 50%;
-	  
-   }
-   
-	 #logo{
-		width: 50%;
-		margin-left:-45%;
-	}  
-	   
-   
-   
-	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 480px;
-		height: 500px;
-		margin-left: -10px;
-		
-	}
-	
-	.hamburger{
-		display: none;
-		
-	}
-	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
-		width:220px;
-		
-		
-	}
-	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
-		width:220px;
-	}	
-	.tile3-log1, .tile3-log2,.tile3-log3 {
-		width:220px;
-	}
-	
-	.tile3-log4,.tile3-log5, .tile3-log6{
-		width:220px;
-	}
-	
-	
-	.tile4, .tile4-kontakt, .tile4-log{
-		width:400px;
-		margin-left: 10px;
-		
-	}
-     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
-		width:400px;
-		margin-top: -5px
-		
-	}
-	.tw{
-		width:100px;
-		float:right;
-		margin: 10px;
-		margin-left: -15px;
-	}
-	.fb, .gp, .yt{
-		margin: 10px 10px;
-		width: 100px;
-	}	
-	
-	.rectangle{
-		width:480px;
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	
-	}
-}
-
-
-@media (min-width: 250px) and (orientation: portrait) {
-   
-   body{
-	   
-	   overflow: hidden;
-   }
-   
-	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 480px;
-		height: 500px;
-		margin-left: -60%;
-		
-	}
-	
-	#logo{
-		width: 50%;
-		margin-left:-25%;
-	}
-	
-	#container{
-	   width: 50%;
-	  
-   }
-	#zegar{
-		margin-left:-18%;
-		margin-top:10%;
-	}
-	.hamburger{
-		display: none;
-		
-	}
-	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
-		width:220px;
-		
-		
-	}
-	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
-		width:220px;
-		
-		
-	}
-	.tile4, .tile4-kontakt, .tile4-log{
-		width:400px;
-		margin-left: 10px;
-		
-	}
-     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
-		width:400px;
-		margin-top: -5px
-		
-	}.tilelink{
-		width:400px;
-		margin-top: -5px
-		
-	}
-	.tw{
-		width:100px;
-		float:right;
-		margin: 10px;
-		margin-left: -15px;
-	}
-	.fb, .gp, .yt{
-		margin: 10px 10px;
-		width: 100px;
-	}	
-	
-	.rectangle{
-		width:480px;
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	
-	}
-}	
-
-	
-	
 
  
 
