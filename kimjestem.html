@@ -18,6 +18,8 @@
 	<link rel="icon" href="icon/favicon.ico">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="jquery-ui/jquery-ui.js"></script>
 	<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
@@ -33,6 +35,8 @@
 			<div class="rectangle">
 				<div id="logo"><a href="index.html" class="tilelinkhtml">Damian Cwykiel</div></a>
 				<div id="zegar">12:00:00</div>
+				
+				<div id="div1" class="fa"></div>
 				<!--<div style="clear:both;"></div>	-->
 	<!--menu-->				
 
@@ -119,5 +123,27 @@
 				
 		</div>
 		
+		<script>
+		function chargebattery() {
+		let a;
+		a = document.getElementById("div1");
+		a.innerHTML = "&#xf244;";
+		setTimeout(function () {
+				a.innerHTML = "&#xf243;";
+			}, 1000);
+		setTimeout(function () {
+				a.innerHTML = "&#xf242;";
+			}, 2000);
+		setTimeout(function () {
+				a.innerHTML = "&#xf241;";
+			}, 3000);
+		setTimeout(function () {
+				a.innerHTML = "&#xf240;";
+			}, 4000);
+	}
+	chargebattery();
+	setInterval(chargebattery, 5000);
+	
+		</script>
 </body>
 </html>

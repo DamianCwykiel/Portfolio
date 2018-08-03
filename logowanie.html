@@ -5,69 +5,81 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<title>Damian Cwykiel - Portfolio</title>
-	
+
 	<meta name="description" content="Stworzę dla Ciebie wyjątkową stronę www! Zatrudnij programistę webowego: PHP, JavaScript, HTML, CSS, MySQL, WordPress, Joomla, Drupal." />
 	<meta name="keywords" content="zamów, stronę, tworzenie, www, programista, portfolio, php, javascript, html, css, WordPress," />
-	
+
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 	<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&amp;subset=latin-ext" rel="stylesheet" type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Righteous&amp;subset=latin-ext" rel="stylesheet">
-	
+
 	<link rel="icon" href="icon/favicon.ico">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
 	<script src="jquery-ui/jquery-ui.js"></script>
 	<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
-	
+
+
+
 	<script src="timer.js"></script>
-			
+
 </head>
 
 <body onload="odliczanie()">
-		
+
 		<div id="container">
-		
+
 			<div class="rectangle">
+
 				<div id="logo" class="tilelinkhtml">Damian Cwykiel</div>
+
 				<div id="zegar">12:00:00</div>
+
+					<div id="div1" class="fa"></div>
+
 				<!--<div style="clear:both;"></div>	-->
-	<!--menu-->				
+	<!--menu-->
 
 	<nav class="site-nav">
-				
-		<button class="hamburger"></button>	
-				  
+
+		<button class="hamburger"></button>
+
 		<div class="site-menu">
-			
+
             <ul id="nav">
                 <li-nav>
                     <a href="kimjestem.html">o mnie</a>
-               
+
                 </li-nav>
                 <li-nav>
                     <a href="CV/CvDamianCwykiel.pdf" target="_blank" alt="CV">CV</a>
-                  
+
                 </li-nav>
                 <li-nav>
                     <a href="https://github.com/DamianCwykiel" target="_blank" alt="github">projekty</a>
-                   
+
 				</li-nav>
 				<li-nav>
 					<a href="index.html">zaloguj</a>
-                 
+
 				</li-nav>
 
             </ul>
         </div>
-				
-</nav>		
-</div>	
+
+</nav>
+</div>
 			<div class="square">
 				<div class="tile5-log">
+
 					<img src="img/damian4.jpg" />
 				</div>
 
@@ -76,58 +88,81 @@
 				</div>
 
 				<!--<div style="clear: both;"></div>-->
-				
+
 			</div>
 			<!--<div style="clear: both;"></div>-->
-				
-			
+
+
 			<div class="square">
-				<div class="tile3-log1"> 
+				<div class="tile3-log1">
 				<a href="index.html" class="zaloguj"><br/></a>
-					
+
+
+
 				</div>
-				
+
 				<div class="tile3-log2">
-					
+
 					<a href="index.html" class="zaloguj"><br/></a>
-					
+
 					<!--<a href="kontakt-programista-php" class="tilelink"> <i class="icon-mail"></i><br/>Kontakt ze mną </a>-->
 				</div>
 				<div class="tile3-log3">
-					
+
 					<a href="index.html" class="zaloguj"><br/></a>
-					
+
 				</div>
-				
+
 				<div class="tile3-log4">
 					<a href="index.html" class="zaloguj"><br/></a>
-					
+
 				</div>
 				<div class="tile3-log5">
-					
-					
-					<h1> 
+
+
+					<h1>
 						<a class="zaloguj" href="index.html">
 
 						<button>ZALOGUJ</button></a>
 
 						<input id = "login-box" type="text" placeholder="damian.cwykiel@gmail.com">
-						
-						
+
+
 					</h1>
-					
+
 				</div>
 				<div class="tile3-log6">
 					<a class ="zaloguj" href="index.html"><img src="img/arrow.png"/></a>
 				</div>
-					
+
 			</div>
-			
+
 				<div style="clear: both;"></div>
-				
+
 			</div>
-			
+
 		</div>
-	</div>	
+	</div>
+<script>
+function chargebattery() {
+		let a;
+		a = document.getElementById("div1");
+		a.innerHTML = "&#xf244;";
+		setTimeout(function () {
+				a.innerHTML = "&#xf243;";
+			}, 1000);
+		setTimeout(function () {
+				a.innerHTML = "&#xf242;";
+			}, 2000);
+		setTimeout(function () {
+				a.innerHTML = "&#xf241;";
+			}, 3000);
+		setTimeout(function () {
+				a.innerHTML = "&#xf240;";
+			}, 4000);
+	}
+	chargebattery();
+	setInterval(chargebattery, 5000);
+		</script>
 </body>
 </html>
