@@ -830,6 +830,410 @@ li:nth-child(21){
 }
 
 
+/*MEDIA QUERRIES*/
+
+
+
+@media (max-width: 1119.98px) and (portrait) {
+   
+   body{
+	   
+	   /*overflow: hidden;*/
+	   font-weight:25px;
+	   width:100vw;
+   }
+   
+	.square{
+		display: flex-wrap;
+		flex-direction: column;
+		width: 50%;
+		
+	}
+	.rectangle{
+		
+		width: 1000px;
+		
+	}
+	.hamburger{
+		position:absolute;
+		margin-top:-30%;
+	}
+	
+	
+	
+	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
+		width:250px;
+		
+		
+	}
+	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
+		width:250px;
+		
+		
+	}
+	.tile4{
+		width:480px;
+		margin-left: 10px;
+		
+	}
+     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
+		width:480px;
+		margin-top: -5px
+		
+	}
+	.tw{
+		width:100px;
+		float:right;
+		margin: 10px;
+		margin-left: -15px;
+	}
+	.fb, .gp, .yt{
+		margin: 10px 10px;
+		width: 100px;
+	}	
+	
+	.rectangle{
+		width:480px;
+		margin-left: 0;
+		
+	}
+	.tilelinkhtml{
+		width: 50%;
+	}
+	.site-menu{
+		width: 30%;
+		left:0;
+		display:none;
+	
+	}
+}
+
+@media (max-width: 991.98px) and (ladscape){
+   
+   body{
+	   
+	   overflow: hidden;
+	   font-weight:18px;
+	   width:100vw;
+   }
+   
+	.square{
+		display: flex-wrap;
+		flex-direction: column;
+		width: 50%;
+		
+	}
+	.rectangle{
+		
+		width: 1000px;
+		height: 100vh;
+	}
+	
+	
+	
+	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
+		width:250px;
+		
+		
+	}
+	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
+		width:250px;
+		
+		
+	}
+	.tile4, .tile4-kontakt, .tile4-log{
+		width:480px;
+		margin-left: 10px;
+		
+	}
+     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
+		width:480px;
+		margin-top: -5px
+		
+	}
+	.tw{
+		width:100px;
+		float:right;
+		margin: 10px;
+		margin-left: -15px;
+	}
+	.fb, .gp, .yt{
+		margin: 10px 10px;
+		width: 100px;
+	}	
+	
+	.rectangle{
+		width:480px;
+		margin-left: 0;
+		
+	}
+	.tilelinkhtml{
+		width: 50%;
+	}
+	.site-menu{
+		width: 30%;
+		left:0;
+		display:none;
+	
+	}
+}
+
+@media (max-width: 767.98px) and (orientation: landscape) {
+   
+   body{
+	   
+	   overflow:hidden;
+	   font-weight:18px;
+   }
+   
+	.square{
+		display: flex-wrap;
+		flex-direction: column;
+		width: 480px;
+		height: 500px;
+		
+		
+	}
+	
+	.rectangle{
+	   width: 50%;
+	   
+	   
+   }
+	#zegar{
+		
+	}
+	#logo{
+		width: 50%;
+		margin-left:-30%;
+	}
+	
+	.hamburger{
+		display: none;
+		
+	}
+	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
+		width:220px;
+		
+		
+	}
+	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
+		width:220px;
+		
+		
+	}
+	.tile4, .tile4-kontakt, .tile4-log{
+		width:400px;
+		margin-left: 10px;
+		
+	}
+     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
+		width:400px;
+		margin-top: -5px
+		
+	}
+	.tw{
+		width:100px;
+		float:right;
+		margin: 10px;
+		margin-left: -15px;
+	}
+	.fb, .gp, .yt{
+		margin: 10px 10px;
+		width: 100px;
+	}	
+	
+	.rectangle{
+		width:480px;
+		margin-left: 0;
+		
+	}
+	.tilelinkhtml{
+		width: 50%;
+	}
+	.site-menu{
+		width: 30%;
+		left:0;
+		display:none;
+	
+	}
+}
+
+
+@media (max-width: 475.98px) and (orientation: portrait) {
+   
+   body{
+	   
+	   overflow:hidden;
+	   width: 	50vw;
+	   height: 50vh;
+   }
+   .rectangle{
+	   width: 50%;
+	   
+	   
+   }
+   #container{
+	   width: 50%;
+	  
+   }
+   
+	 #logo{
+		width: 50%;
+		margin-left:-45%;
+	}  
+	   
+   
+   
+	.square{
+		display: flex-wrap;
+		flex-direction: column;
+		width: 480px;
+		height: 500px;
+		margin-left: -10px;
+		
+	}
+	
+	.hamburger{
+		display: none;
+		
+	}
+	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
+		width:220px;
+		
+		
+	}
+	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
+		width:220px;
+	}	
+	.tile3-log1, .tile3-log2,.tile3-log3 {
+		width:220px;
+	}
+	
+	.tile3-log4,.tile3-log5, .tile3-log6{
+		width:220px;
+	}
+	
+	
+	.tile4, .tile4-kontakt, .tile4-log{
+		width:400px;
+		margin-left: 10px;
+		
+	}
+     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
+		width:400px;
+		margin-top: -5px
+		
+	}
+	.tw{
+		width:100px;
+		float:right;
+		margin: 10px;
+		margin-left: -15px;
+	}
+	.fb, .gp, .yt{
+		margin: 10px 10px;
+		width: 100px;
+	}	
+	
+	.rectangle{
+		width:480px;
+		margin-left: 0;
+		
+	}
+	.tilelinkhtml{
+		width: 50%;
+	}
+	.site-menu{
+		width: 30%;
+		left:0;
+		display:none;
+	
+	}
+}
+
+
+@media (min-width: 150px) and (orientation: portrait) {
+   
+   
+   
+	.square{
+		display: flex-wrap;
+		flex-direction: column;
+		width: 480px;
+		height: 500px;
+		margin-left: -60%;
+		
+	}
+	
+	#logo{
+		width: 50%;
+		margin-left:-25%;
+	}
+	
+	#container{
+	   width: 50%;
+	  
+   }
+	#zegar{
+		margin-left:-18%;
+		margin-top:10%;
+	}
+	.hamburger{
+		display: none;
+		
+	}
+	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
+		width:220px;
+		
+		
+	}
+	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
+		width:220px;
+		
+		
+	}
+	.tile4, .tile4-kontakt, .tile4-log{
+		width:400px;
+		margin-left: 10px;
+		
+	}
+     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
+		width:400px;
+		margin-top: -5px
+		
+	}.tilelink{
+		width:400px;
+		margin-top: -5px
+		
+	}
+	.tw{
+		width:100px;
+		float:right;
+		margin: 10px;
+		margin-left: -15px;
+	}
+	.fb, .gp, .yt{
+		margin: 10px 10px;
+		width: 100px;
+	}	
+	
+	.rectangle{
+		width:480px;
+		margin-left: 0;
+		
+	}
+	.tilelinkhtml{
+		width: 50%;
+	}
+	.site-menu{
+		width: 30%;
+		left:0;
+		display:none;
+	
+	}
+}	
+
  
 
 
