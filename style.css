@@ -1,6 +1,6 @@
 body
 {
-	background: url(img/desktop.jpg) no-repeat;
+	background: url(img/desktop.jpg) no-repeat center center fixed;
 	background-size: cover;
 	color: #fff;
 	font-family: 'Lato', sans-serif;
