@@ -45,9 +45,9 @@ function odliczanie()
     });
   } );
   
-  function chargebattery() {
+  function batteryCharger() {
 		 let a;
-		  a = document.getElementById("div1");
+		  a = document.getElementById("batteryCharger");
 		  a.innerHTML = "&#xf244;";
 		  setTimeout(function () {
 		      a.innerHTML = "&#xf243;";
@@ -62,8 +62,8 @@ function odliczanie()
 		      a.innerHTML = "&#xf240;";
 		    }, 4000);
 		}
-		chargebattery();
-		setInterval(chargebattery, 5000);
+		batteryCharger();
+		setInterval(batteryCharger, 5000);
   
 
 	
