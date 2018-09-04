@@ -847,8 +847,8 @@ a.maillink
 		margin-left: 10px;
 		
 	}
-     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
-		width:480px;
+     #tile5-light, #tile5-osobie, #tile5-log, .tile5{
+		width:400px;
 		margin-top: -5px
 		
 	}
@@ -889,14 +889,15 @@ a.maillink
     }
 }
 
-@media (max-width: 860px) and (orientation: landscape) {
+@media (min-width: 700px) and (orientation: landscape) {
    
    body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
 		background-size: cover;
 		overflow:scroll;
 		font-weight:18px;
-		width: 40px;
+		width: 400px;
+		
    }
    
 	.square{
@@ -914,7 +915,7 @@ a.maillink
    }
 	
 	.rectangle{
-	   width: 480px;
+	   width: 380px;
 	   
 	   
    }
@@ -986,7 +987,7 @@ a.maillink
 		
 	}
      #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
-		width:400px;
+		width:450px;
 		margin-top: 5px;
 		
 				
