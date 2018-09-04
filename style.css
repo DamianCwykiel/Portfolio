@@ -1013,7 +1013,7 @@ a.maillink
     }
 }
 
-@media (min-width: 480px) and (orientation: portrait) {
+@media (min-width: 280px) and (orientation: portrait) {
    
    body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
@@ -1036,24 +1036,26 @@ a.maillink
 		width: 50%;
 		margin-left:-5%;
 		font-size: 30px;
+		margin-left:25%;
 	}
 	
 	#batteryCharger{
 		position:relative;
-		right:60%;
+		right:55%;
 		margin-top:60%;
+		
 		
 	}
 	
 	#container{
 	   width: 100%;
 	   position:relative;
-	   right:15%;
+	   left:20%;
 	   overflow:hidden;
 	  
    }
 	#zegar{
-		margin-left:-50%;
+		margin-left:-35%;
 		margin-top:25%;
 		clear:both;
 		font-size: 30px;
@@ -1073,27 +1075,30 @@ a.maillink
 	}
 	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
 		width:220px;
+		margin-left:15%;
 		
 		
 		
 	}
 	.tile2, #tile2-cv,.tile3, #tile3-kontakt{
 		width:220px;
-		
+		margin-left:15%;
 		
 		
 	}
 	.tile4, #tile4-kontakt, #tile4-log{
 		width:220px;
+		padding-bottom: 5%;
+		overflow: scroll;
 		
 		
 	}
      #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
-		width:400px;
+		width:250px;
 		margin-top: 5px;
-		overflow:scroll;
+		overflow: scroll;
 		margin-left: -10%;
-		clear:both;
+		
 		
 	}.tilelink{
 		width:400px;
@@ -1104,9 +1109,12 @@ a.maillink
 		width:100px;
 		float:right;
 		margin-right: 18%;
+		position: absolute;
+		top:88.7%;
+		left: 44%;
 	}
 	.fb, .gp, .yt{
-		margin-left: 5px;
+		margin-left: 15px;
 		width: 100px;
 	}	
 	
