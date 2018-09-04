@@ -812,6 +812,18 @@ a.maillink
 		width: 50%;
 		
 	}
+	
+	#zegar{
+	margin-left:25%;
+	margin-top:10%;
+	clear:both;
+	font-size: 40px;
+	}
+	
+	#logo{
+		width: 50%;
+		margin-left:30%;
+	}
 	.rectangle{
 		
 		width: 1000px;
@@ -877,13 +889,14 @@ a.maillink
     }
 }
 
-@media (max-width: 767.98px) and (orientation: landscape) {
+@media (max-width: 853.98px) and (orientation: landscape) {
    
    body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
 		background-size: cover;
 		overflow:scroll;
 		font-weight:18px;
+		width: 500px;
    }
    
 	.square{
@@ -894,7 +907,9 @@ a.maillink
 	}
 	
 	#container{
-	  width: 800px;
+	  width: 500px;
+	  overflow:hidden;
+	  margin-left: 15%;
 	  
    }
 	
@@ -904,8 +919,8 @@ a.maillink
 	   
    }
 	#zegar{
-	margin-left:25%;
-	margin-top:10%;
+	margin-left:20%;
+	margin-top:5%;
 	clear:both;
 	font-size: 40px;
 	}
@@ -913,9 +928,27 @@ a.maillink
 	#logo{
 		width: 50%;
 		margin-left:30%;
+		font-size: 40px;
+		margin-top:7%;
+	}
+	#batteryCharger{
+		position:relative;
+		right:33%;
+		margin-top:30%;
+		font-size: 40px;
+		
 	}
 	
 	.hamburger{
+		width: 40px;
+        height: 35px;
+        border: 0px;
+        border-top: 5px solid white;
+        background-color: transparent;
+        position: absolute;
+        transition: 0.5s transform linear;
+        top: 28%;
+        left: 75%;
 		
 		
 	}
@@ -924,9 +957,11 @@ a.maillink
 		
 		
 		
+		
 	}
 	.tile2, #tile2-cv,.tile3, #tile3-kontakt{
 		width:220px;
+		
 		
 		
 	}
@@ -935,9 +970,10 @@ a.maillink
 		margin-left: 10px;
 		
 	}
-     #tile5-light, #tile5-osobie, #tile5-log, .tile5{
+     #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
 		width:400px;
-		margin-top: -5px;
+		margin-top: 5px;
+		
 				
 	}
 	.tw{
@@ -966,7 +1002,7 @@ a.maillink
 	
 	}
 	#footer{
-		margin-left: -60%;
+		margin-left: 10%;
 		font-size: 12px;
 		clear:both;
 		text-align:left;
@@ -977,123 +1013,14 @@ a.maillink
     }
 }
 
-
-@media (max-width: 375.98px) and (orientation: portrait) {
+@media (min-width: 480px) and (orientation: portrait) {
    
    body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
 		background-size: cover;
 		overflow:scroll;
 		font-weight:18px;
-	}
-	
-   .rectangle{
-	   width: 50%;
-	   
-   }
-   
-   #container{
-	  width: 50%;
-	  
-   }
-   
-	 #logo{
-		width: 50%;
-		margin-left:-80%;
-	}  
-	 
-	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 480px;
-		margin-left: 0%;
-		float:left;
 		
-	}
-	
-	.hamburger{
-		display: none;
-		
-	}
-	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
-		width:220px;
-		float:left;
-		
-		
-	}
-	.tile2, #tile2-cv,.tile3, #tile3-kontakt{
-		width:220px;
-		float:left;
-		
-	}	
-	#tile3-log1, #tile3-log2,#tile3-log3 {
-		width:220px;
-		
-	}
-	
-	#tile3-log4, #tile3-log5, #tile3-log6{
-		width:220px;
-		
-	}
-	
-	
-	.tile4, #tile4-kontakt, #tile4-log{
-		width:400px;
-		margin-left: 10px;
-		
-	}
-     #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
-		width:400px;
-		margin-top: -5px;
-		clear:both;
-		
-	}
-	.tw{
-		width:100px;
-		float:right;
-		margin: 10px;
-		margin-left: -15px;
-	}
-	.fb, .gp, .yt{
-		margin: 10px 10px;
-		width: 100px;
-	}	
-	
-	.rectangle{
-		width:480px;
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	
-	}
-	#footer{
-		margin-left: -60%;
-		font-size: 12px;
-		clear:both;
-		text-align:left;
-	}
-	#h4-footer span::after {
-        content: '\A';
-        white-space: pre;
-    }
-}
-
-
-@media (min-width: 250px) and (orientation: portrait) {
-   
-   body{
-		background: url(img/desktop.jpg) no-repeat center center fixed;
-		background-size: cover;
-		overflow:scroll;
-		font-weight:18px;
-		float:left;
 		width:250px;
 		
 	}
@@ -1102,42 +1029,51 @@ a.maillink
 		display: flex-wrap;
 		flex-direction: column;
 		width: 280px;
-		margin-left: -30%;
+		margin-left: -10%;
 	}
 	
 	#logo{
 		width: 50%;
-		margin-left:-10%;
+		margin-left:-5%;
 		font-size: 30px;
 	}
 	
 	#batteryCharger{
 		position:relative;
-		right:50%;
+		right:60%;
+		margin-top:60%;
 		
 	}
 	
 	#container{
-	   width: 10%;
+	   width: 100%;
 	   position:relative;
-	   left:40%;
+	   right:15%;
+	   overflow:hidden;
 	  
    }
 	#zegar{
-		margin-left:-45%;
+		margin-left:-50%;
 		margin-top:25%;
 		clear:both;
 		font-size: 30px;
 		
 	}
 	.hamburger{
-		
-		position:relative;
-		right:-40%;
+		width: 40px;
+        height: 35px;
+        border: 0px;
+        border-top: 5px solid white;
+        background-color: transparent;
+        position: relative;
+        transition: 0.5s transform linear;
+        top: 65%;
+        left: 50%;
 		
 	}
 	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
 		width:220px;
+		
 		
 		
 	}
@@ -1145,19 +1081,19 @@ a.maillink
 		width:220px;
 		
 		
+		
 	}
 	.tile4, #tile4-kontakt, #tile4-log{
-		width:250px;
-		margin-left: 10px;
-		overflow:scroll;
-		margin-left: -10%;
-		padding-bottom: 25%;
+		width:220px;
+		
+		
 	}
      #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
-		width:250px;
+		width:400px;
 		margin-top: 5px;
 		overflow:scroll;
 		margin-left: -10%;
+		clear:both;
 		
 	}.tilelink{
 		width:400px;
