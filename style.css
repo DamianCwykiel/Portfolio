@@ -889,14 +889,14 @@ a.maillink
     }
 }
 
-@media (max-width: 853.98px) and (orientation: landscape) {
+@media (min-width: 840px) and (orientation: landscape) {
    
    body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
 		background-size: cover;
 		overflow:scroll;
 		font-weight:18px;
-		width: 500px;
+		width: 450px;
    }
    
 	.square{
@@ -909,7 +909,7 @@ a.maillink
 	#container{
 	  width: 500px;
 	  overflow:hidden;
-	  margin-left: 15%;
+	  margin-left: 35%;
 	  
    }
 	
@@ -919,7 +919,7 @@ a.maillink
 	   
    }
 	#zegar{
-	margin-left:20%;
+	margin-left:23%;
 	margin-top:5%;
 	clear:both;
 	font-size: 40px;
@@ -927,7 +927,7 @@ a.maillink
 	
 	#logo{
 		width: 50%;
-		margin-left:30%;
+		margin-left:23%;
 		font-size: 40px;
 		margin-top:7%;
 	}
@@ -939,6 +939,21 @@ a.maillink
 		
 	}
 	
+	.site-menu {
+    display: flex;
+	box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: -20%;
+    height: 100%;
+    width: 20%;
+    opacity: 20%;
+    font-family: 'Righteous', cursive;
+    font-size: 16px;
+    opacity: 0.8;
+    box-shadow: 0 0 10px black;
+}
+	
 	.hamburger{
 		width: 40px;
         height: 35px;
@@ -947,8 +962,8 @@ a.maillink
         background-color: transparent;
         position: absolute;
         transition: 0.5s transform linear;
-        top: 28%;
-        left: 75%;
+        top: 22%;
+        left: 70%;
 		
 		
 	}
@@ -1005,7 +1020,7 @@ a.maillink
 		margin-left: 10%;
 		font-size: 12px;
 		clear:both;
-		text-align:left;
+		text-align:center;
 	}
 	#h4-footer span::after {
         content: '\A';
@@ -1020,8 +1035,7 @@ a.maillink
 		background-size: cover;
 		overflow:scroll;
 		font-weight:18px;
-		
-		width:250px;
+		width:450px;
 		
 	}
    
@@ -1041,8 +1055,8 @@ a.maillink
 	
 	#batteryCharger{
 		position:relative;
-		right:55%;
-		margin-top:60%;
+		right:40%;
+		margin-top:20%;
 		
 		
 	}
@@ -1050,13 +1064,13 @@ a.maillink
 	#container{
 	   width: 100%;
 	   position:relative;
-	   left:20%;
+	   left:2%;
 	   overflow:hidden;
 	  
    }
 	#zegar{
-		margin-left:-35%;
-		margin-top:25%;
+		margin-left:5%;
+		margin-top:5%;
 		clear:both;
 		font-size: 30px;
 		
@@ -1074,30 +1088,34 @@ a.maillink
 		
 	}
 	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
-		width:220px;
+		width:450px;
 		margin-left:15%;
+		padding-left: 35%;
 		
 		
 		
 	}
 	.tile2, #tile2-cv,.tile3, #tile3-kontakt{
-		width:220px;
+		width:450px;
 		margin-left:15%;
+		padding-left: 35%;
 		
 		
 	}
 	.tile4, #tile4-kontakt, #tile4-log{
-		width:220px;
+		width:450px;
 		padding-bottom: 5%;
 		overflow: scroll;
 		
 		
 	}
      #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
-		width:250px;
+		width:450px;
 		margin-top: 5px;
 		overflow: scroll;
-		margin-left: -10%;
+		padding-left: 10%;
+		font-size: 12px;
+		
 		
 		
 	}.tilelink{
@@ -1106,20 +1124,22 @@ a.maillink
 		
 	}
 	.tw{
-		width:100px;
-		float:right;
-		margin-right: 18%;
-		position: absolute;
-		top:88.7%;
-		left: 44%;
-	}
-	.fb, .gp, .yt{
 		margin-left: 15px;
-		width: 100px;
+		width: 400px;
+		padding-left: 75%;
+		
+		
+		
+		
+	}
+	.fb, .gplus, .yt{
+		margin-left: 15px;
+		width: 400px;
+		padding-left: 75%;
 	}	
 	
 	.rectangle{
-		width:480px;
+		width:450px;
 		margin-left: 0;
 		
 	}
@@ -1132,7 +1152,7 @@ a.maillink
 		display:none;
 	}
 	#footer{
-		margin-left: -40%;
+		margin-left: 20%;
 		font-size: 12px;
 		clear:both;
 		text-align:left;
