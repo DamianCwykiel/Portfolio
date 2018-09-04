@@ -914,7 +914,7 @@ a.maillink
    }
 	
 	.rectangle{
-	   width: 440px;
+	   width: 480px;
 	   
 	   
    }
@@ -1088,7 +1088,7 @@ a.maillink
 		
 	}
 	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
-		width:450px;
+		width:400px;
 		margin-left:15%;
 		padding-left: 35%;
 		
@@ -1096,7 +1096,7 @@ a.maillink
 		
 	}
 	.tile2, #tile2-cv,.tile3, #tile3-kontakt{
-		width:450px;
+		width:400px;
 		margin-left:15%;
 		padding-left: 35%;
 		
@@ -1110,7 +1110,7 @@ a.maillink
 		
 	}
      #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
-		width:450px;
+		width:400px;
 		margin-top: 5px;
 		overflow: scroll;
 		padding-left: 10%;
