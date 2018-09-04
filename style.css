@@ -120,14 +120,14 @@ h4{
 {
 	float: left;
 	font-family: 'Righteous', cursive;
-	font-size: 55px;
+	font-size: 50px;
 	text-align: left;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 #batteryCharger {
   font-size:45px;
-  padding-top:25px;
+  padding-top:24px;
   padding-left:25px;
 }
 
@@ -270,7 +270,7 @@ a:visited {
         background-color: transparent;
         position: relative;
         transition: 0.5s transform linear;
-        top: 30%;
+        top: 35%;
         left: 10%;
 }
 	
@@ -716,7 +716,7 @@ a.maillink
 	cursor: pointer;
 }
 
-/*MEDIA QUERRIES*/
+/*MEDIA QUERIES*/
 
 
 
@@ -865,6 +865,16 @@ a.maillink
 		display:none;
 	
 	}
+	#footer{
+		margin-left: -60%;
+		font-size: 12px;
+		clear:both;
+		text-align:left;
+	}
+	#h4-footer span::after {
+        content: '\A';
+        white-space: pre;
+    }
 }
 
 @media (max-width: 767.98px) and (orientation: landscape) {
@@ -956,10 +966,15 @@ a.maillink
 	
 	}
 	#footer{
-		margin-left: 5%;
+		margin-left: -60%;
 		font-size: 12px;
 		clear:both;
+		text-align:left;
 	}
+	#h4-footer span::after {
+        content: '\A';
+        white-space: pre;
+    }
 }
 
 
@@ -1059,11 +1074,15 @@ a.maillink
 	
 	}
 	#footer{
-		margin-rigth: 15%;
+		margin-left: -60%;
 		font-size: 12px;
 		clear:both;
-		text-align:center;
+		text-align:left;
 	}
+	#h4-footer span::after {
+        content: '\A';
+        white-space: pre;
+    }
 }
 
 
@@ -1075,6 +1094,7 @@ a.maillink
 		overflow:scroll;
 		font-weight:18px;
 		float:left;
+		width:250px;
 		
 	}
    
@@ -1087,23 +1107,33 @@ a.maillink
 	
 	#logo{
 		width: 50%;
-		margin-left:-40%;
-		clear:both;
+		margin-left:-10%;
 		font-size: 30px;
 	}
 	
+	#batteryCharger{
+		position:relative;
+		right:50%;
+		
+	}
+	
 	#container{
-	   width: 50%;
+	   width: 10%;
+	   position:relative;
+	   left:40%;
 	  
    }
 	#zegar{
-		margin-left:-35%;
-		margin-top:10%;
+		margin-left:-45%;
+		margin-top:25%;
 		clear:both;
 		font-size: 30px;
+		
 	}
 	.hamburger{
-		display: none;
+		
+		position:relative;
+		right:-40%;
 		
 	}
 	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
@@ -1121,11 +1151,11 @@ a.maillink
 		margin-left: 10px;
 		overflow:scroll;
 		margin-left: -10%;
-		
+		padding-bottom: 25%;
 	}
      #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
 		width:250px;
-		margin-top: -5px;
+		margin-top: 5px;
 		overflow:scroll;
 		margin-left: -10%;
 		
@@ -1158,11 +1188,16 @@ a.maillink
 		display:none;
 	}
 	#footer{
-		margin-left: -60%;
+		margin-left: -40%;
 		font-size: 12px;
 		clear:both;
 		text-align:left;
+		position:relative;
 	}
+	#h4-footer span::after {
+        content: '\A';
+        white-space: pre;
+    }
 }	
 
  
