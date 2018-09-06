@@ -17,7 +17,7 @@ body
 /*page_Content*/
 
 #container
-{
+{ 
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
@@ -728,7 +728,7 @@ a.maillink
 	   font-weight:25px;
 	   width:100vw;
 	   height:100vh;
-	   overflow:scroll;
+	   overflow-x:hidden;
    }
    
 	.square{
@@ -800,10 +800,10 @@ a.maillink
    
    body{
 	   
-	   overflow: scroll;
 	   font-weight:18px;
 	   width:100vw;
 	   height:100vh;
+	   overflow-x:hidden;
    }
    
 	.square{
@@ -829,8 +829,6 @@ a.maillink
 		width: 1000px;
 		height: 100vh;
 	}
-	
-	
 	
 	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
 		width:250px;
@@ -894,9 +892,9 @@ a.maillink
    body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
 		background-size: cover;
-		overflow:scroll;
 		font-weight:18px;
 		width: 400px;
+		overflow-x:hidden;
 		
    }
    
@@ -1034,7 +1032,7 @@ a.maillink
    body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
 		background-size: cover;
-		overflow:scroll;
+		overflow-x:hidden;
 		font-weight:18px;
 		width:450px;
 		
@@ -1128,9 +1126,6 @@ a.maillink
 		margin-left: 15px;
 		width: 400px;
 		padding-left: 75%;
-		
-		
-		
 		
 	}
 	.fb, .gplus, .yt{
