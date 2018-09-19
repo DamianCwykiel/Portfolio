@@ -315,6 +315,7 @@ a:visited {
 	background-color: #3095d3;
 	float: left;
 	text-align: center;
+	transition: 1s linear;
 }
 
 #tile1-a-osobie
@@ -330,6 +331,7 @@ a:visited {
 .tile1-a:hover{
 	background-color: #1093a2;
 	cursor: pointer;
+	transform: rotateY(180deg);
 }
 
 #tile1-a-highlighted{
@@ -355,6 +357,7 @@ a:visited {
 	background-color: #A3F;
 	float: left;
 	text-align: center;
+	transition: 1s ease-in-out;
 }
  #tile1-b-oferta
 {
@@ -371,6 +374,7 @@ a:visited {
 
 	background-color: #B3A;
 	cursor: pointer;
+	transform: rotateY(180deg);
 }
 
 /*tile1b_co_Oferuję?*/
@@ -393,6 +397,7 @@ a:visited {
 	background-color: orange;
 	float: left;
 	text-align: center;
+	transition: .5s ease-in-out;
 }
 #tile2-cv
 {
@@ -408,6 +413,8 @@ a:visited {
 .tile2:hover
 {
 	background-color: darkorange;
+	transform: rotateY(30deg);
+	background: linear-gradient(to left, red, darkorange);
 }
 
 /*tile2_Curriculum_vitae*/
@@ -448,10 +455,13 @@ a:visited {
 	background-color: yellowgreen;
 	float: left;
 	text-align: center;
+	transition: .5s ease-in-out;
 }
 .tile3:hover
 {
 	background-color: #82b637;
+	transform: rotateY(30deg);
+	background: linear-gradient(to left, yellowgreen, darkgreen);
 }
 
 #tile3-kontakt
@@ -642,10 +652,12 @@ a:visited {
 	height: 142px; 
 	background-color: #d94348;
 	float: left;
+	transition: .5s ease-in-out;
 }
 .yt:hover
 {
 	background-color: #c83237;
+	transform: rotateX(60deg);
 }
 .fb
 {
@@ -654,10 +666,12 @@ a:visited {
 	height: 142px; 
 	background-color: #4668b3;
 	float: left;
+	transition: .5s ease-in-out;
 }
 .fb:hover
 {
 	background-color: #3557a2;
+	transform: rotateX(60deg);
 }
 .gplus
 {
@@ -666,10 +680,12 @@ a:visited {
 	height: 142px; 
 	background-color: #d95333;
 	float: left;
+	transition: .5s ease-in-out;
 }
 .gplus:hover
 {
 	background-color: #c84222;
+	transform: rotateX(60deg);;
 }
 .tw
 {
@@ -678,10 +694,12 @@ a:visited {
 	height: 142px; 
 	background-color: #3095d3;
 	float: left;
+	transition: .5s ease-in-out;
 }
 .tw:hover
 {
 	background-color: #2084c2;
+	transform: rotateX(60deg);;
 	
 }
 
@@ -716,333 +734,21 @@ a.maillink
 	cursor: pointer;
 }
 
-/*MEDIA QUERIES*/
 
 
-/*
-@media (max-width: 1119.98px) and (landscape) {
-   
-   body{
-	   
-	   
-	   font-weight:25px;
-	   width:100vw;
-	   height:100vh;
-	   overflow-x:hidden;
-   }
-   
-	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 50%;
-		
-	}
-	.rectangle{
-		
-		width: 1000px;
-		
-	}
-	.hamburger{
-		position:absolute;
-		margin-top:-30%;
-	}
+/*Media Queries*/ 
+  
+  /* portrait phones, less than 576px*/
+@media (max-width: 575.98px) and (orientation: portrait){ 
 	
-	
-	
-	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
-		width:250px;
-		
-		
-	}
-	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
-		width:250px;
-		
-		
-	}
-	.tile4{
-		width:480px;
-		margin-left: 10px;
-		
-	}
-     .tile5-light, .tile5-osobie, .tile5-log, .tile5{
-		width:480px;
-		margin-top: -5px
-		
-	}
-	.tw{
-		width:100px;
-		float:right;
-		margin: 10px;
-		margin-left: -15px;
-	}
-	.fb, .gp, .yt{
-		margin: 10px 10px;
-		width: 100px;
-	}	
-	
-	.rectangle{
-		width:480px;
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	
-	}
-}
-
-@media (max-width: 991.98px) and (ladscape){
-   
-   body{
-	   
-	   font-weight:18px;
-	   width:100vw;
-	   height:100vh;
-	   overflow-x:hidden;
-   }
-   
-	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 50%;
-		
-	}
-	
-	#zegar{
-	margin-left:25%;
-	margin-top:10%;
-	clear:both;
-	font-size: 40px;
-	}
-	
-	#logo{
-		width: 50%;
-		margin-left:30%;
-	}
-	.rectangle{
-		
-		width: 1000px;
-		height: 100vh;
-	}
-	
-	.tile1-a, .tile1-a-osobie,.tile1-b, .tile1-b-oferta{
-		width:250px;
-		
-		
-	}
-	.tile2, .tile2-cv,.tile3, .tile3-kontakt{
-		width:250px;
-		
-		
-	}
-	.tile4, .tile4-kontakt, .tile4-log{
-		width:480px;
-		margin-left: 10px;
-		
-	}
-     #tile5-light, #tile5-osobie, #tile5-log, .tile5{
-		width:400px;
-		margin-top: -5px
-		
-	}
-	.tw{
-		width:100px;
-		float:right;
-		margin: 10px;
-		margin-left: -15px;
-	}
-	.fb, .gp, .yt{
-		margin: 10px 10px;
-		width: 100px;
-	}	
-	
-	.rectangle{
-		width:480px;
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	
-	}
-	#footer{
-		margin-left: -60%;
-		font-size: 12px;
-		clear:both;
-		text-align:left;
-	}
-	#h4-footer span::after {
-        content: '\A';
-        white-space: pre;
-    }
-}
-
-@media (min-width: 700px) and (orientation: landscape) {
-   
-   body{
+	body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
 		background-size: cover;
 		font-weight:18px;
-		width: 400px;
-		overflow-x:hidden;
-		
-   }
-   
-	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 480px;
-		margin-left: 5%;
-	}
-	
-	#container{
-	  width: 850px;
-	  overflow:hidden;
-	  margin-left: 35%;
-	  
-   }
-	
-	.rectangle{
-	   width: 380px;
-	   
-	   
-   }
-	#zegar{
-	margin-left:23%;
-	margin-top:5%;
-	clear:both;
-	font-size: 40px;
-	}
-	
-	#logo{
-		width: 50%;
-		margin-left:23%;
-		font-size: 40px;
-		margin-top:7%;
-	}
-	#batteryCharger{
-		position:relative;
-		right:33%;
-		margin-top:30%;
-		font-size: 40px;
-		
-	}
-	
-	.site-menu {
-    display: flex;
-	box-sizing: border-box;
-    position: absolute;
-    top: 0;
-    right: -20%;
-    height: 100%;
-    width: 20%;
-    opacity: 20%;
-    font-family: 'Righteous', cursive;
-    font-size: 16px;
-    opacity: 0.8;
-    box-shadow: 0 0 10px black;
-}
-	
-	.hamburger{
-		width: 40px;
-        height: 35px;
-        border: 0px;
-        border-top: 5px solid white;
-        background-color: transparent;
-        position: absolute;
-        transition: 0.5s transform linear;
-        top: 22%;
-        left: 70%;
-		
-		
-	}
-	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
-		width:220px;
-		
-		
-		
-		
-	}
-	.tile2, #tile2-cv,.tile3, #tile3-kontakt{
-		width:220px;
-		
-		
-		
-	}
-	.tile4, #tile4-kontakt, #tile4-log{
-		width:400px;
-		margin-left: 10px;
-		
-	}
-     #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
-		width:450px;
-		margin-top: 5px;
-		
-				
-	}
-	.tw{
-		width:100px;
-		float:right;
-		margin: 10px;
-		margin-left: -15px;
-	}
-	.fb, .gp, .yt{
-		margin: 10px 10px;
-		width: 100px;
-	}	
-	
-	.rectangle{
-		width:480px;
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	
-	}
-	#footer{
-		margin-left: 10%;
-		font-size: 12px;
-		clear:both;
-		text-align:center;
-	}
-	#h4-footer span::after {
-        content: '\A';
-        white-space: pre;
-    }
-}
-*/
-@media (min-width: 280px) and (orientation: portrait) {
-   
-   body{
-		background: url(img/desktop.jpg) no-repeat center center fixed;
-		background-size: cover;
-		overflow-x:hidden;
-		font-weight:18px;
-		width:450px;
-		
 	}
    
 	.square{
-		display: flex-wrap;
-		flex-direction: column;
-		width: 280px;
-		margin-left: -10%;
+		width: 500px;
 	}
 	
 	#logo{
@@ -1061,12 +767,11 @@ a.maillink
 	}
 	
 	#container{
-	   width: 100%;
+	   width: 500px;
 	   position:relative;
-	   left:2%;
-	   overflow:hidden;
-	  
-   }
+	   
+	}
+	
 	#zegar{
 		margin-left:5%;
 		margin-top:5%;
@@ -1075,67 +780,45 @@ a.maillink
 		
 	}
 	.hamburger{
-		width: 40px;
-        height: 35px;
-        border: 0px;
-        border-top: 5px solid white;
-        background-color: transparent;
-        position: relative;
-        transition: 0.5s transform linear;
-        top: 65%;
-        left: 50%;
 		
+		display:none;
 	}
 	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
-		width:400px;
-		margin-left:15%;
-		padding-left: 35%;
-		
+		width:220px;
 		
 		
 	}
 	.tile2, #tile2-cv,.tile3, #tile3-kontakt{
-		width:400px;
-		margin-left:15%;
-		padding-left: 35%;
+		width:220px;
+		
 		
 		
 	}
 	.tile4, #tile4-kontakt, #tile4-log{
-		width:450px;
+		width:400px;
 		padding-bottom: 5%;
 		overflow: scroll;
 		
 		
 	}
      #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
-		width:400px;
+		width:380px;
 		margin-top: 5px;
 		overflow: scroll;
 		padding-left: 10%;
 		font-size: 12px;
 		
-		
-		
-	}.tilelink{
-		width:400px;
-		margin-top: -5px
-		
 	}
+	
 	.tw{
-		margin-left: 15px;
-		width: 400px;
-		padding-left: 75%;
-		
+	width: 100px;
 	}
 	.fb, .gplus, .yt{
-		margin-left: 15px;
-		width: 400px;
-		padding-left: 75%;
+	width: 100px;
 	}	
 	
 	.rectangle{
-		width:450px;
+		width:500px;
 		margin-left: 0;
 		
 	}
@@ -1158,7 +841,117 @@ a.maillink
         content: '\A';
         white-space: pre;
     }
-}	
+}
+
+/* landscape phones, less than 768px */
+@media (max-width: 767.98px) and (orientation: landscape){ 
+
+	body{
+		background: url(img/desktop.jpg) no-repeat center center fixed;
+		background-size: cover;
+		font-weight:18px;
+	}
+   
+	.square{
+		width: 100%;
+	}
+	
+	#logo{
+		width: 50%;
+		margin-left:-5%;
+		font-size: 30px;
+		margin-left:25%;
+	}
+	
+	#batteryCharger{
+		position:relative;
+		right:40%;
+		margin-top:20%;
+		
+		
+	}
+	
+	#container{
+	   width: 100%;
+	   position:relative;
+	   
+	}
+	
+	#zegar{
+		margin-left:5%;
+		margin-top:5%;
+		clear:both;
+		font-size: 30px;
+		
+	}
+	.hamburger{
+		
+		display:none;
+	}
+	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
+		width:220px;
+		
+		
+	}
+	.tile2, #tile2-cv,.tile3, #tile3-kontakt{
+		width:220px;
+		
+		
+		
+	}
+	.tile4, #tile4-kontakt, #tile4-log{
+		width:400px;
+		padding-bottom: 5%;
+		overflow: scroll;
+		
+		
+	}
+     #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
+		width:380px;
+		margin-top: 5px;
+		overflow: scroll;
+		padding-left: 10%;
+		font-size: 12px;
+		
+	}
+	
+	.tw{
+	width: 100px;
+	}
+	.fb, .gplus, .yt{
+	width: 100px;
+	}	
+	
+	.rectangle{
+		width:500px;
+		margin-left: 0;
+		
+	}
+	.tilelinkhtml{
+		width: 50%;
+	}
+	.site-menu{
+		width: 30%;
+		left:0;
+		display:none;
+	}
+	#footer{
+		margin-left: 20%;
+		font-size: 12px;
+		clear:both;
+		text-align:left;
+		position:relative;
+	}
+	
+}
+
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
 
  
 
