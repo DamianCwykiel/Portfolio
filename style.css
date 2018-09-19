@@ -739,10 +739,13 @@ a.maillink
 /*Media Queries*/ 
   
   /* portrait phones, less than 576px*/
-@media (max-width: 675.98px) and (orientation: portrait){ 
+@media (max-width: 719.98px) and (orientation: portrait){ 
 	
 	body{
 		font-weight:18px;
+		width:600px;
+		height:100%;
+		overflow:scroll;
 	}
    
 	.square{
@@ -842,7 +845,7 @@ a.maillink
 }
 
 /* landscape phones, less than 768px */
-@media (max-width: 767.98px) and (orientation: landscape){ 
+@media (max-width: 1127.98px) and (orientation: landscape){ 
 
 	body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
