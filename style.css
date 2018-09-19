@@ -847,7 +847,18 @@ a.maillink
 /* landscape phones, less than 768px */
 @media (max-width: 767.98px) and (orientation: landscape){ 
 
-	body{
+	
+	
+}
+
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+body{
 		background: url(img/desktop.jpg) no-repeat center center fixed;
 		background-size: cover;
 		font-weight:18px;
@@ -943,16 +954,7 @@ a.maillink
 		text-align:left;
 		position:relative;
 	}
-	
 }
-
-
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
 
  
 
