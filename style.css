@@ -739,16 +739,14 @@ a.maillink
 /*Media Queries*/ 
   
   /* portrait phones, less than 576px*/
-@media (max-width: 575.98px) and (orientation: portrait){ 
+@media (max-width: 675.98px) and (orientation: portrait){ 
 	
 	body{
-		background: url(img/desktop.jpg) no-repeat center center fixed;
-		background-size: cover;
 		font-weight:18px;
 	}
    
 	.square{
-		width: 500px;
+		width: 600px;
 	}
 	
 	#logo{
@@ -767,7 +765,7 @@ a.maillink
 	}
 	
 	#container{
-	   width: 500px;
+	   width: 600px;
 	   position:relative;
 	   
 	}
@@ -802,7 +800,7 @@ a.maillink
 		
 	}
      #tile5-light, #tile1a-hihglighted, #tile5-log, .tile5{
-		width:380px;
+		width:370px;
 		margin-top: 5px;
 		overflow: scroll;
 		padding-left: 10%;
