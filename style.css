@@ -742,7 +742,13 @@ a.maillink
 @media (max-width: 575.98px) and (orientation: portrait){ 
 	
 	body{
-		font-weight:18px;
+		background: url(img/desktop.jpg) no-repeat center center fixed;
+		background-size: cover;
+		color: #fff;
+		font-family: 'Righteous', cursive;
+		font-size: 20px;
+		
+		width: 500px;
 	}
    
 	.square{
