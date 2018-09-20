@@ -742,17 +742,12 @@ a.maillink
 @media (max-width: 575.98px) and (orientation: portrait){ 
 	
 	body{
-		background: url(img/desktop.jpg) no-repeat center center fixed;
-		background-size: cover;
-		
 		font-weight:18px;
 	}
    
 	.square{
-		display: flex;
 		
-		
-		width: 500px;
+		width: 50%;
 		
 	}
 	
@@ -785,15 +780,7 @@ a.maillink
 		
 	}
 	.hamburger{
-		width: 40px;
-        height: 35px;
-        border: 0px;
-        border-top: 5px solid white;
-        background-color: transparent;
-        position: relative;
-        transition: 0.5s transform linear;
-        top: 65%;
-        left: 50%;
+		
 		display:none;
 	}
 	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
@@ -830,7 +817,7 @@ a.maillink
 	}	
 	
 	.rectangle{
-		width:500px;
+		width:50%;
 		margin-left: 0;
 		
 	}
