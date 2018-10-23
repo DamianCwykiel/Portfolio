@@ -739,6 +739,7 @@ a.maillink
 /*Media Queries*/ 
   
   /* portrait phones, less than 576px*/
+<<<<<<< HEAD
 @media (max-width: 729.98px) and (orientation: portrait){ 
 	
 	body{
@@ -757,6 +758,19 @@ a.maillink
 		
 		width: 500px;
 		
+=======
+@media (max-width: 720.98px) and (orientation: portrait){ 
+	
+	body{
+		font-weight:18px;
+		width:600px;
+		height:100%;
+		overflow:scroll;
+	}
+   
+	.square{
+		width: 600px;
+>>>>>>> parent of 794c775... media queries
 	}
 	
 	#logo{
@@ -775,8 +789,12 @@ a.maillink
 	}
 	
 	#container{
+<<<<<<< HEAD
 	   width: 500px;
 	   height: 100%;
+=======
+	   width: 600px;
+>>>>>>> parent of 794c775... media queries
 	   position:relative;
 	   
 	   
@@ -827,7 +845,11 @@ a.maillink
 	}	
 	
 	.rectangle{
+<<<<<<< HEAD
 		width:50%;
+=======
+		width:500px;
+>>>>>>> parent of 794c775... media queries
 		margin-left: 0;
 		
 	}
