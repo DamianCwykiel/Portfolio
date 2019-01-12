@@ -12,19 +12,19 @@ body
 	font-family: 'Righteous', cursive;
 	font-size: 20px;
 	overflow: hidden;
-	width: 100vw;
 }
 /*page_Content*/
 
 #container
 { 
-	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 0px 0px 50px black;
 	background-size: cover;
+	height: 100vh;
 	padding-top: 5px;
 	opacity: 0.9;
+	width: 1000px;
 }
 
 /*page_Content*/
@@ -734,159 +734,30 @@ a.maillink
 	cursor: pointer;
 }
 
-
-
 /*Media Queries*/ 
   
-  /* portrait phones, less than 576px*/
-<<<<<<< HEAD
-@media (max-width: 729.98px) and (orientation: portrait){ 
+  /* portrait phones, less than 575px*/
+
+@media (max-width: 600px) and (orientation: portrait) {
 	
-	body{
-		background: url(img/desktop.jpg) no-repeat center center fixed;
-		background-size: cover;
-		color: #fff;
-		font-family: 'Righteous', cursive;
-		font-size: 18px;
-		width:100%;
-		height: 100%;
-		
-		
-	}
-   
 	.square{
-		
-		width: 500px;
-		
-=======
-@media (max-width: 720.98px) and (orientation: portrait){ 
-	
-	body{
-		font-weight:18px;
-		width:600px;
-		height:100%;
-		overflow:scroll;
+		display: flex;
+		flex-flow: row wrap;
 	}
-   
-	.square{
-		width: 600px;
->>>>>>> parent of 794c775... media queries
+	.tilelink{
+		display: flex;
+		flex-flow: row wrap;
 	}
 	
-	#logo{
-		width: 50%;
-		margin-left:-5%;
-		font-size: 30px;
-		margin-left:25%;
-	}
-	
-	#batteryCharger{
-		position:relative;
-		right:40%;
-		margin-top:20%;
-		
-		
-	}
-	
-	#container{
-<<<<<<< HEAD
-	   width: 500px;
-	   height: 100%;
-=======
-	   width: 600px;
->>>>>>> parent of 794c775... media queries
-	   position:relative;
-	   
-	   
-	}
-	
-	#zegar{
-		margin-left:5%;
-		margin-top:5%;
-		clear:both;
-		font-size: 30px;
-		
-	}
-	.hamburger{
-		
-		display:none;
-	}
-	.tile1-a, #tile1-a-osobie,.tile1-b, #tile1-b-oferta{
-		width:220px;
-				
-	}
-	.tile2, #tile2-cv,.tile3, #tile3-kontakt{
-		width:220px;
-		
-		
-		
-	}
-	.tile4, #tile4-kontakt, #tile4-log{
-		width:400px;
-		padding-bottom: 5%;
-		overflow: scroll;
-		
-		
-	}
-     #tile5-light, #tile1a-highlighted, #tile5-log, .tile5{
-		width:400px;
-		margin-top: 5px;
-		overflow: scroll;
-		
-		font-size: 12px;
-		
-	}
-	
-	.tw{
-	width: 100px;
-	}
-	.fb, .gplus, .yt{
-	width: 100px;
-	}	
-	
-	.rectangle{
-<<<<<<< HEAD
-		width:50%;
-=======
-		width:500px;
->>>>>>> parent of 794c775... media queries
-		margin-left: 0;
-		
-	}
-	.tilelinkhtml{
-		width: 50%;
-	}
-	.site-menu{
-		width: 30%;
-		left:0;
-		display:none;
-	}
-	#footer{
-		margin-left: 20%;
-		font-size: 12px;
-		clear:both;
-		text-align:left;
-		position:relative;
-	}
-	#h4-footer span::after {
-        content: '\A';
-        white-space: pre;
-    }
 }
-
-/* landscape phones, less than 768px */
-@media (max-width: 767.98px) and (orientation: landscape){ 
-
+@media (min-width: 600px) and (orientation: landscape){
+	#zegar, #batteryCharger{
+		margin-left: -20px;
+	}
 	
 }
 
 
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
 
  
 
