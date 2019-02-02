@@ -4,8 +4,7 @@
 	margin:0;
 }
 
-body
-{
+body {
 	background: url(img/desktop.jpg) no-repeat center center fixed;
 	background-size: cover;
 	color: #fff;
@@ -15,8 +14,7 @@ body
 }
 /*page_Content*/
 
-#container
-{ 
+#container { 
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 0px 0px 50px black;
@@ -29,59 +27,57 @@ body
 
 /*page_Content*/
 
-h1{
+h1 {
 	font-size: 18px;
 	text-align:center;
 	padding-top:5%;
 	padding-bottom:5%;
-}
-h2{
+} 
+h2 {
 	font-size:16px;
 	padding-top:2%;
-}
-#h2-kontakt{
+} 
+#h2-kontakt {
 	color:red;
 	font-size:20px;
 	font-weight: 900;
-	
-}
-#kontakt{
+} 
+#kontakt {
 	padding-top: 5%;
-}
-h4{
+} 
+h4 {
 	padding-top: 5%;
 	font-size: 14px;
 	font-family: 'Righteous', cursive;
-}
-#h4-oferta{
+} 
+#h4-oferta {
 	padding-top: 5%;
 	font-size: 12px;
 	
-}
-#h4-footer{
+} 
+#h4-footer {
 	padding-top: 5px;
 	font-size:16px;
 	font-weight: 500;
 }
 
-#kontakt{
+#kontakt {
 	line-height: 200%;
 	font-weight:600;
 	font-family: 'Righteous', cursive;
 }
 
-#projects
-{
+#projects {
 	text-decoration: none;
 	color: white;
 	font-weight: 600;
-}
-#projects:hover{
+} 
+#projects:hover {
 	color: white;
 	border-bottom: .1px solid white;
 }
 
-#footer{
+footer {
 	margin: -15px auto;
 	padding-bottom: 1px;
 	text-align: center;
@@ -90,14 +86,13 @@ h4{
 
 /*header*/
 
-.rectangle{
+.rectangle {
 	width: 1000px;
 	margin: 15px;
 	text-align: center;
 }
 
-.rectangle:nth-child(1)
-{
+.rectangle:nth-child(1) {
 	width: 1000px;
 	margin: 15px;
 	text-align: left;
@@ -105,8 +100,7 @@ h4{
 	grid-template-columns: 1fr 2fr 1fr 1fr;
 }
 
-#logo
-{
+#logo {
 	float: left;
 	font-family: 'Righteous', cursive;
 	font-size: 55px;
@@ -116,8 +110,7 @@ h4{
 	padding-left: 5%;
 }
 
-#zegar
-{
+#zegar {
 	float: left;
 	font-family: 'Righteous', cursive;
 	font-size: 50px;
@@ -133,15 +126,14 @@ h4{
 
 /*square_Left,square_Right*/
 
-.square
-{
+.square {
 	width: 50%;
 	float: left;
 }
 
 /*logowanie*/
 
-input{
+input {
 	padding: 8px 8px 14px 8px;
 	font-size: 18px;
 	border-radius: 3px;
@@ -152,8 +144,7 @@ input{
 
 /*tile3_log5*/
 
-.zaloguj
-{
+.zaloguj {
 	text-decoration: none;
 	font-size: 20px;
 	width: 45px;
@@ -171,7 +162,7 @@ input{
 	 color: gold;
 }
 
-#login-box{
+#login-box {
 	
 	margin: 10px -20px;
 	color:blue;
@@ -179,11 +170,12 @@ input{
 
 /*logowanie_Button_zaloguj*/
 
-#tile3-log5-button{
+#tile3-log5-button {
 	width: 70px;
 	height: 35px;
-}
-#tile3-log5-button:hover{
+} 
+
+#tile3-log5-button:hover {
 	cursor:pointer;
 }
 
@@ -212,7 +204,7 @@ input{
     flex-wrap: wrap;
  }
  
-.site-menu li-nav{
+.site-menu li-nav {
     margin-top: 20px;
     border-radius: 5px;
     flex-basis: 100%;
@@ -236,7 +228,7 @@ input{
     font-size: 1.5rem;
 	text-decoration: none;
 	
- }
+}
 
 a:visited {
     color: black;
@@ -274,9 +266,8 @@ a:visited {
         left: 10%;
 }
 	
-.hamburger:hover{
+.hamburger:hover {
 		cursor:pointer;
-		
 }
 
 .hamburger::before,
@@ -307,8 +298,7 @@ a:visited {
 
 /*tile1a_O_sobie*/
 
-.tile1-a
-{
+.tile1-a {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
@@ -318,8 +308,7 @@ a:visited {
 	transition: 1s linear;
 }
 
-#tile1-a-osobie
-{
+#tile1-a-osobie {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
@@ -328,13 +317,13 @@ a:visited {
 	text-align: center;
 	box-shadow: 0px 0px 20px red;
 }
-.tile1-a:hover{
+.tile1-a:hover {
 	background-color: #1093a2;
 	cursor: pointer;
 	transform: rotateY(180deg);
 }
 
-#tile1-a-highlighted{
+#tile1-a-highlighted {
 	margin: 10px;
 	width: 420px;
 	height: 244px; 
@@ -349,8 +338,7 @@ a:visited {
 
 /*tile1b_Co_oferuję?*/
 
- .tile1-b
-{
+ .tile1-b {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
@@ -359,8 +347,7 @@ a:visited {
 	text-align: center;
 	transition: 1s ease-in-out;
 }
- #tile1-b-oferta
-{
+ #tile1-b-oferta {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
@@ -370,7 +357,7 @@ a:visited {
 	box-shadow: 0px 0px 20px red;
 }
 
-.tile1-b:hover{
+.tile1-b:hover {
 
 	background-color: #B3A;
 	cursor: pointer;
@@ -379,7 +366,7 @@ a:visited {
 
 /*tile1b_co_Oferuję?*/
 
-.png{
+.png {
 	display: inline-block;
 	letter-spacing: 2px;
 	padding: 0 -5px 0 10px;
@@ -389,8 +376,7 @@ a:visited {
 
 /*tile2_Curriculum_vitae*/
 
-.tile2
-{
+.tile2 {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
@@ -399,8 +385,8 @@ a:visited {
 	text-align: center;
 	transition: .5s ease-in-out;
 }
-#tile2-cv
-{
+
+#tile2-cv {
 	margin: 10px;
 	width: 230px;
 	height: 142px; 
@@ -410,8 +396,7 @@ a:visited {
 	box-shadow: 0px 0px 20px red;
 }
 
-.tile2:hover
-{
+.tile2:hover {
 	background-color: darkorange;
 	transform: rotateY(30deg);
 	background: linear-gradient(to left, red, darkorange);
@@ -421,21 +406,22 @@ a:visited {
 
 /*goldenline_link*/
 
-.goldenline{
+.goldenline {
 	font-size: 1.1rem;
 	color: black;
 	text-decoration: none;
 	line-height: 200%;
 	font-weight: 500;
 }
-.goldenline:hover{
+
+.goldenline:hover {
 	font-weight: 600;
 	color: gold;
 }
 
 /*cv_downloader*/
 
-.cv{
+.cv {
 	animation: mail 2s infinite ease-in-out;
 	transform: rotate(60deg) translateX(-60px);
 	text-shadow: 0px -5px 15px darkblue;
@@ -447,8 +433,7 @@ a:visited {
 
 /*tile3_Kontakt_ze_mna*/
 
-.tile3
-{
+.tile3 {
 	margin: 10px;
 	width: 230px;
 	height: 140px; 
@@ -456,16 +441,14 @@ a:visited {
 	float: left;
 	text-align: center;
 	transition: .5s ease-in-out;
-}
-.tile3:hover
-{
+} 
+.tile3:hover {
 	background-color: #82b637;
 	transform: rotateY(30deg);
 	background: linear-gradient(to left, yellowgreen, darkgreen);
 }
 
-#tile3-kontakt
-{
+#tile3-kontakt {
 	margin: 10px;
 	width: 230px;
 	height: 140px; 
@@ -477,8 +460,7 @@ a:visited {
 
 /*logowanie*/
 
-#tile3-log-1
-{
+#tile3-log-1 {
 	margin-top: 10px;
 	width: 63%;
 	height: 135px; 
@@ -489,8 +471,7 @@ a:visited {
 	border: 2px solid blue;
 }	
 
-#tile3-log-2
-{
+#tile3-log-2 {
 	margin-top: 10px;
 	width: 33%;
 	height: 135px; 
@@ -501,8 +482,7 @@ a:visited {
 	border: 2px solid red;
 }
 
-#tile3-log-3
-{
+#tile3-log-3 {
 	margin-top: 10px;
 	width: 38%;
 	height: 135px; 
@@ -513,7 +493,7 @@ a:visited {
 	border: 2px solid blue;
 }
 
-#tile3-log-4{
+#tile3-log-4 {
 	margin-top: 10px;
 	width: 58%;
 	height: 135px; 
@@ -526,7 +506,7 @@ a:visited {
 
 /*button_zaloguj*/
 
-#tile3-log-5{
+#tile3-log-5 {
 	margin-top: 10px;
 	width: 53%;
 	height: 135px; 
@@ -538,7 +518,7 @@ a:visited {
 	overflow:hidden;
 }
 
-#tile3-log-5:hover{
+#tile3-log-5:hover {
 	
 	background-color: darkred;
 	border: 2px solid #26221F;
@@ -546,7 +526,7 @@ a:visited {
 
 /*arrow_zaloguj*/
 
-#tile3-log-6{
+#tile3-log-6 {
 	margin-top: 10px;
 	width: 43%;
 	height: 135px; 
@@ -557,7 +537,7 @@ a:visited {
 	border: 2px solid red;
 }
 
-#tile3-log-6:hover{
+#tile3-log-6:hover {
 	
 	border: 2px solid #201C19;
 	background-color: darkred;
@@ -565,8 +545,7 @@ a:visited {
 
 /*quotes*/
 
-.tile4
-{
+.tile4 {
 	margin: 10px;
 	width: 420px;
 	height: 82px; 
@@ -580,8 +559,7 @@ a:visited {
 
 /*logowanie*/
 
-#tile4-log
-{
+#tile4-log {
 	margin: 35px;
 	width: 360px;
 	height: 75px; 
@@ -597,8 +575,7 @@ a:visited {
 
 /*tile1a-description*/
 
-.tile5 
-{
+.tile5 {
 	margin: 10px;
 	width: 420px;
 	height: 244px; 
@@ -613,8 +590,7 @@ a:visited {
 
 /*index.html_introduction*/
 
-#tile5-light 
-{
+#tile5-light {
 	margin: 10px;
 	width: 420px;
 	height: 244px; 
@@ -630,8 +606,7 @@ a:visited {
 
 /*logowanie_image*/
 
-#tile5-log
-{
+#tile5-log {
 	margin-left: -1px;
 	margin-top: -12px;
 	width: 390px;
@@ -645,8 +620,7 @@ a:visited {
 
 /*socialMedia*/
 
-.yt
-{
+.yt {
 	margin: 10px;
 	width: 105px;
 	height: 142px; 
@@ -654,13 +628,13 @@ a:visited {
 	float: left;
 	transition: .5s ease-in-out;
 }
-.yt:hover
-{
+
+.yt:hover {
 	background-color: #c83237;
 	transform: rotateX(60deg);
 }
-.fb
-{
+
+.fb {
 	margin: 10px;
 	width: 105px;
 	height: 142px; 
@@ -668,13 +642,13 @@ a:visited {
 	float: left;
 	transition: .5s ease-in-out;
 }
-.fb:hover
-{
+
+.fb:hover {
 	background-color: #3557a2;
 	transform: rotateX(60deg);
 }
-.gplus
-{
+
+.gplus {
 	margin: 10px;
 	width: 105px;
 	height: 142px; 
@@ -682,13 +656,13 @@ a:visited {
 	float: left;
 	transition: .5s ease-in-out;
 }
-.gplus:hover
-{
+
+.gplus:hover {
 	background-color: #c84222;
 	transform: rotateX(60deg);;
 }
-.tw
-{
+
+.tw {
 	margin: 10px;
 	width: 105px;
 	height: 142px; 
@@ -696,15 +670,14 @@ a:visited {
 	float: left;
 	transition: .5s ease-in-out;
 }
-.tw:hover
-{
+
+.tw:hover {
 	background-color: #2084c2;
 	transform: rotateX(60deg);;
 	
 }
 
-a.tilelink
-{
+a.tilelink {
 	color: #ffffff;
 	text-decoration: none;
 	display: block;
@@ -712,13 +685,12 @@ a.tilelink
 	height: 142px; 
 }
 
-a.tilelinkhtml
-{
+a.tilelinkhtml {
 	color: #ffffff;
 	text-decoration: none;
 }
-a.sociallink
-{
+
+a.sociallink {
 	color: #ffffff;
 	text-decoration: none;
 	display: block;
@@ -726,8 +698,7 @@ a.sociallink
 	height: 142px; 
 }
 
-a.maillink
-{
+a.maillink {
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 15px;
@@ -750,7 +721,7 @@ a.maillink
 	}
 	
 }
-@media (min-width: 600px) and (orientation: landscape){
+@media (min-width: 600px) and (orientation: landscape) {
 	#zegar, #batteryCharger{
 		margin-left: -20px;
 	}
